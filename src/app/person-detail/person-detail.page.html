@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+      </ion-buttons>
+    <ion-title>Detalhes do Professor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card>        
+        <ion-card-header>
+            <ion-card-title><p>{{person.sobrenome}}, {{person.nome}}</p></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p>{{person.curriculo}}</p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
